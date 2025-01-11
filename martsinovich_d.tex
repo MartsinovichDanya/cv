@@ -1,0 +1,150 @@
+\documentclass[11pt,a4paper, serif]{moderncv}
+
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+%\nopagenumbers{}
+
+\usepackage{polyglossia}
+\setdefaultlanguage[indentfirst=true,forceheadingpunctuation=false]{russian}
+\setotherlanguages{english}
+
+%\usepackage[scale=0.9]{geometry}
+%\setlength{\footskip}{136.00005pt}                 % depending on the amount of information in the footer, you need to
+
+\setmainfont{PT Serif}
+\setsansfont{PT Sans}
+\setmonofont{PT Mono}
+
+\name{Даниил}{Марцинович}
+\title{ML/MLOps engineer}
+\born{31 декабря 2001}
+\phone[mobile]{+7~(965)~309~57~21}
+\email{den.martsinovich@yandex.ru}
+\homepage{https://MartsinovichDanya.github.io}
+
+\social[linkedin]{daniil-martsinovich-738158146}
+\social[github]{MartsinovichDanya}
+\social[telegram]{DanyaMartsinovich}
+
+\photo[64pt][0.4pt]{profile_pic_s.jpg}
+
+\begin{document}
+\makecvtitle
+
+\section{Опыт}
+\cventry{2023—н.в.}{Инженер машинного обучения}{Программный Продукт}{Москва}{}{Проекты: разработка прикладных систем на основе искусственного интеллекта для решения различных задач.\newline{}\newline{}
+Инструменты: Python, Rabbit MQ, Numpy, Pandas, Matplotlib, Pytorch, MLflow, Fastapi, Whisper, Mistral, Tensorrt-LLM, llama.cpp, vLLM, OpenaAI API, PostgreSQL, FAISS, Redis, Jupyter, Telegram API.\newline{}
+\begin{itemize}
+\item Разработал сервис транскрибации реального времени на основе Whisper
+\item Реализовал систему транскрибации с диаризацией говорящих
+\item Создал чат-бот для получения стенограмм онлайн встреч
+\item Работал над ускорением инференса LLM моделей, удалось уменьшить время ответа LLM в 2 раза
+\item Спроектировал и разработал голосового ассистента для общения и ответов на вопросы по заранее определенному контексту (RAG)
+\item Выстроил процессы разработки отдела ИИ
+\item Создал RnD среду для работы DS специалистов (Jupyter Hub, Gitlab, хранилище моделей и другие компоненты)
+\item Руковожу командой разработки из 3 молодых специалистов
+\item Отвечаю за вывод в продакшн систем разработанных мной или моей командой
+\end{itemize}}
+
+\newpage
+
+\section{Опыт}
+\cventry{2022—2023}{Инженер по работе с данными}{Программный Продукт}{Москва}{}{Проект: глобальное обновление системы обработки больших данных.\newline{}\newline{}
+Инструменты: Python, Airflow, Hadoop, Pyspark, Rabbit MQ, PostgreSQL, Clickhouse, VerticaDB, Hive, Numpy, Pandas, Jupyter.\newline{}
+\begin{itemize}
+\item Переписал более 50 ETL процессов c Python 2 на Python 3
+\item Разработал систему уникальных скриптов для проверки полного совпадения таблиц старого и нового контура
+\item Реализовал процесс сбора логов всех используемых БД в одной таблице для отслеживания операций чтения/записи
+\item Выявил и устранил ряд багов и инфраструктурных проблем в существующих ETL процессах
+\item Разрабатывал ETL процессы для интеграции с новыми источниками данных
+\end{itemize}}
+
+\section{Опыт}
+\cventry{2021—2022}{Младший инженер по работе с данными}{Программный Продукт}{Москва}{}{Проект: развитие и поддержка распределенной системы обработки больших данных.\newline{}\newline{}
+Инструменты: Python, Airflow, Hadoop, Pyspark, PostgreSQL, VerticaDB, Hive, Numpy, Pandas, Jupyter.\newline{}
+\begin{itemize}
+\item Поддерживал работу хранилища данных, построенного по методологии Data Vault
+\item Настраивал ETL процессы для подключения новых источников данных
+\item Реализовал систему автоматической проверки целостности загруженных данных
+\item Разработал систему загрузки архивных данных из SQL-скриптов
+\end{itemize}}
+
+\newpage
+
+\section{Опыт}
+\cventry{2019—2021}{Бэкенд разработчик}{Фриланс}{Москва}{}{Проекты: разработка веб-приложений и чат-ботов.\newline{}\newline{}
+Инструменты: Python, Flask, Django, MongoDB, SQLAlchemy, PostgreSQL, Telegram API.\newline{}
+\begin{itemize}
+\item Разрабатывал чат-боты для телеграм и вк
+\item Реализовал уникальную систему отслеживания задач в виде телеграм-бота для юридической компании
+\item Разрабатывал веб-приложения различной сложности для частных предпринимателей
+\item Реализовал систему парсинга и автозаполнения документов ms office на python
+\end{itemize}}
+
+\section{Образование}
+\cventry{2020—2024}{Инфокоммуникационные технологии и системы связи}{МИРЭА - Российский технологический университет}{Москва}{бакалавр}{}
+
+\section{Языки}
+\cvskillentry{Русский}{5}{родной}{}{}
+\cvskillentry{Английский}{4}{C2}{}{}
+\cvskillentry{Немецкий}{4}{В2}{}{}
+
+
+
+\section{Навыки и технологии}
+\begin{cvcolumns}
+  \cvcolumn{}{
+  	\begin{itemize}
+  		\item Deep Learning
+  		\item NLP, NER
+  		\item Computer Vision
+  		\item Speech Recognition
+  		\item Machine learning
+  		\item Anomaly Detection
+  		\item Data analysis
+  		\item Data visualisation
+  		\item Statistics
+  	\end{itemize}}
+  \cvcolumn{}{
+  	\begin{itemize}
+  		\item Python
+  		\item SQL
+  		\item Linux
+  		\item Docker
+  		\item YOLO
+  		\item Natasha
+  		\item ONNX
+  		\item HuggingFace
+  		\item Ollama
+  		\item U-Net
+  		\item AirFlow
+  		\item MLFlow
+  		\item CVAT
+  		\item Plotly
+  	\end{itemize}}
+  \cvcolumn{}{\begin{itemize}
+  		\item Pytorch
+  		\item Lightning
+  		\item Pandas
+  		\item NumPy
+  		\item Sklearn
+  		\item FastAPI
+  		\item uvicorn
+  		\item PyOD
+  		\item PySAD
+  		\item Optimum
+  		\item pywin32
+  		\item CatBoost
+  		\item XGBoost
+  		\item PostgreSQL
+  	\end{itemize}}
+\end{cvcolumns}
+% \section{Сертификаты}
+% \cvitem{Yandex}{Тренировки по ML}
+% \cvitem{ФКН ВШЭ}{MLOps Bootcamp}
+% \cvitem{Kaggle}{Feature Engineering}
+% \cvitem{Kaggle}{Data Visualization}
+\end{document}
+
+
+%% end of file `template.tex'.
